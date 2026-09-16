@@ -4,21 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#0d2537" />
-    <meta
-      name="description"
-      content="داشبورد قیمت پراید و پژو ۴۰۵؛ مقایسه مدل‌ها، بازه بازار و برآورد قیمت با توجه به کارکرد و وضعیت بدنه."
-    />
+    <meta name="description" content="داشبورد قیمت پراید و پژو ۴۰۵؛ مقایسه مدل‌ها، بازه بازار و برآورد قیمت با توجه به کارکرد و وضعیت بدنه." />
     <meta property="og:title" content="فرمون | قیمت پراید و پژو ۴۰۵" />
-    <meta
-      property="og:description"
-      content="قیمت‌های بازار، مقایسه مدل‌ها و برآورد اولیه خودروهای پراید و پژو ۴۰۵."
-    />
+    <meta property="og:description" content="قیمت‌های بازار، مقایسه مدل‌ها و برآورد اولیه خودروهای پراید و پژو ۴۰۵." />
     <meta property="og:type" content="website" />
     <title>فرمون | قیمت پراید و پژو ۴۰۵</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
@@ -119,16 +113,42 @@
           <rect x="8" y="8" width="11" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/>
           <path d="M16 8V6.5A1.5 1.5 0 0 0 14.5 5h-9A1.5 1.5 0 0 0 4 6.5v9A1.5 1.5 0 0 0 5.5 17H8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
         </symbol>
+        <symbol id="icon-user" viewBox="0 0 24 24">
+          <circle cx="12" cy="8" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/>
+          <path d="M4 20c0-4 4-6 8-6s8 2 8 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </symbol>
+        <symbol id="icon-globe" viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/>
+          <path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18" fill="none" stroke="currentColor" stroke-width="1.8"/>
+        </symbol>
+        <symbol id="icon-terminal" viewBox="0 0 24 24">
+          <rect x="2.5" y="4" width="19" height="16" rx="2.4" fill="none" stroke="currentColor" stroke-width="1.8"/>
+          <path d="m6 9 4 3-4 3M12 15h6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </symbol>
+        <symbol id="icon-palette" viewBox="0 0 24 24">
+          <path d="M12 3a9 9 0 1 0 0 18c1.5 0 2-1 1.5-2s1-2 2.5-2H19a3 3 0 0 0 3-3 9 9 0 0 0-10-9Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+          <circle cx="7.5" cy="10.5" r="1.2" fill="currentColor"/>
+          <circle cx="11" cy="7.5" r="1.2" fill="currentColor"/>
+          <circle cx="15.5" cy="8.5" r="1.2" fill="currentColor"/>
+          <circle cx="9" cy="14.5" r="1.2" fill="currentColor"/>
+        </symbol>
+        <symbol id="icon-settings" viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="1.8"/>
+          <path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </symbol>
       </defs>
     </svg>
 
     <div class="announcement" role="status">
       <div class="page-shell announcement__inner">
         <span class="announcement__dot"></span>
-        <span>اسنپ‌شات بازار: <strong>۲۵ شهریور ۱۴۰۵</strong></span>
+        <span data-i18n="announcementSnapshot">اسنپ‌شات بازار:</span>
+        <strong data-i18n="date15Sep">۲۵ شهریور ۱۴۰۵</strong>
         <span class="announcement__sep">•</span>
-        <span>قیمت‌ها <strong>تومان</strong> هستند</span>
-        <a href="#sources">روش گردآوری داده <svg class="icon icon--xs"><use href="#icon-arrow-left"></use></svg></a>
+        <span data-i18n="announcementPrices">قیمت‌ها</span>
+        <strong data-i18n="announcementToman">تومان</strong>
+        <span data-i18n="announcementToman">هستند</span>
+        <a href="#sources" data-i18n="announcementDataSource">روش گردآوری داده <svg class="icon icon--xs"><use href="#icon-arrow-left"></use></svg></a>
       </div>
     </div>
 
@@ -136,7 +156,7 @@
       <div class="page-shell nav-wrap">
         <a class="brand" href="#top" aria-label="فرمون، صفحه نخست">
           <span class="brand__mark"><svg class="icon"><use href="#icon-logo"></use></svg></span>
-          <span class="brand__text">فرمون<small>نبض بازار خودرو</small></span>
+          <span class="brand__text" data-i18n="brandName">فرمون<small data-i18n="brandTagline">نبض بازار خودرو</small></span>
         </a>
 
         <button class="nav-toggle" id="nav-toggle" type="button" aria-label="باز کردن منو" aria-expanded="false">
@@ -144,18 +164,46 @@
         </button>
 
         <nav class="main-nav" id="main-nav" aria-label="ناوبری اصلی">
-          <a class="is-active" href="#catalog">قیمت مدل‌ها</a>
-          <a href="#insights">نبض بازار</a>
-          <a href="#estimator">برآورد قیمت</a>
-          <a href="#sources">منابع</a>
+          <a class="is-active" href="#catalog" data-i18n="navPrices">قیمت مدل‌ها</a>
+          <a href="#insights" data-i18n="navInsights">نبض بازار</a>
+          <a href="#estimator" data-i18n="navEstimator">برآورد قیمت</a>
+          <a href="#sources" data-i18n="navSources">منابع</a>
         </nav>
 
         <div class="nav-actions">
+          <button class="icon-button" id="lang-toggle" type="button" aria-label="Toggle language" title="Toggle language">
+            <svg class="icon"><use href="#icon-globe"></use></svg>
+          </button>
           <button class="icon-button theme-toggle" id="theme-toggle" type="button" aria-label="تغییر حالت نمایش" title="تغییر حالت نمایش">
             <svg class="icon icon--sun"><use href="#icon-sun"></use></svg>
             <svg class="icon icon--moon"><use href="#icon-moon"></use></svg>
           </button>
-          <a class="button button--dark nav-cta" href="#estimator">قیمت‌گذاری خودرو <svg class="icon icon--xs"><use href="#icon-arrow-left"></use></svg></a>
+          <button class="icon-button" id="theme-cycle-btn" type="button" title="چرخش بین پوسته‌ها">
+            <svg class="icon"><use href="#icon-palette"></use></svg>
+          </button>
+
+          <div class="user-menu">
+            <button class="icon-button user-btn" id="user-btn" type="button" aria-label="کاربری">
+              <svg class="icon"><use href="#icon-user"></use></svg>
+              <span class="user-name" data-i18n="login">ورود</span>
+            </button>
+            <div class="user-dropdown" id="user-dropdown">
+              <button class="dropdown-item" id="login-btn" type="button">
+                <svg class="icon"><use href="#icon-user"></use></svg>
+                <span data-i18n="login">ورود</span>
+              </button>
+              <button class="dropdown-item" id="profile-btn" type="button" hidden>
+                <svg class="icon"><use href="#icon-settings"></use></svg>
+                <span data-i18n="profile">پروفایل</span>
+              </button>
+              <button class="dropdown-item" id="logout-btn" type="button" hidden>
+                <svg class="icon icon--xs"><use href="#icon-close"></use></svg>
+                <span data-i18n="logout">خروج</span>
+              </button>
+            </div>
+          </div>
+
+          <a class="button button--dark nav-cta" href="#estimator" data-i18n="ctaEstimate">قیمت‌گذاری خودرو <svg class="icon icon--xs"><use href="#icon-arrow-left"></use></svg></a>
         </div>
       </div>
     </header>
@@ -167,19 +215,19 @@
         <div class="hero__orb hero__orb--orange"></div>
         <div class="page-shell hero__layout">
           <div class="hero__copy reveal">
-            <div class="eyebrow eyebrow--light"><span class="pulse-dot"></span> داده‌های بازار، بدون پیچاندن</div>
-            <h1 id="hero-title">قیمت ماشین را<br /><em>روشن</em> ببین.</h1>
-            <p class="hero__lede">بازه قیمت مدل‌های پراید و پژو ۴۰۵ را یک‌جا ببین، جزئیات را مقایسه کن و برای خودروی خودت برآورد اولیه بگیر.</p>
+            <div class="eyebrow eyebrow--light"><span class="pulse-dot"></span> <span data-i18n="heroEyebrow">داده‌های بازار، بدون پیچاندن</span></div>
+            <h1 id="hero-title"><span data-i18n="heroTitle1">قیمت ماشین را</span><br /><em data-i18n="heroTitleEm">روشن</em><span data-i18n="heroTitle2">ببین.</span></h1>
+            <p class="hero__lede" data-i18n="heroLede">بازه قیمت مدل‌های پراید و پژو ۴۰۵ را یک‌جا ببین، جزئیات را مقایسه کن و برای خودروی خودت برآورد اولیه بگیر.</p>
 
             <form class="hero-search" id="hero-search" role="search">
               <label class="sr-only" for="hero-search-input">جست‌وجوی مدل خودرو</label>
               <svg class="icon"><use href="#icon-search"></use></svg>
-              <input id="hero-search-input" type="search" autocomplete="off" placeholder="مثلاً پراید ۱۳۱ یا ۴۰۵ SLX" />
-              <button type="submit">جست‌وجو <svg class="icon icon--xs"><use href="#icon-arrow-left"></use></svg></button>
+              <input id="hero-search-input" type="search" autocomplete="off" data-i18n-ph="searchPlaceholder" placeholder="مثلاً پراید ۱۳۱ یا ۴۰۵ SLX" />
+              <button type="submit" data-i18n="searchButton">جست‌وجو <svg class="icon icon--xs"><use href="#icon-arrow-left"></use></svg></button>
             </form>
 
             <div class="quick-search" aria-label="میانبرهای جست‌وجو">
-              <span>پرتکرار:</span>
+              <span data-i18n="quickSearchLabel">پرتکرار:</span>
               <button data-quick-search="پراید ۱۱۱" type="button">پراید ۱۱۱</button>
               <button data-quick-search="پراید ۱۵۱" type="button">پراید ۱۵۱</button>
               <button data-quick-search="SLX" type="button">۴۰۵ SLX</button>
@@ -187,17 +235,17 @@
 
             <div class="hero__trust">
               <div class="avatars" aria-hidden="true"><span>د</span><span>ب</span><span>م</span></div>
-              <p><strong>۲۵ مدل و تیپ</strong> در این نسخه<br /><span>قیمت‌ها با جزئیات مرجع ثبت شده‌اند.</span></p>
+              <p><strong id="trust-models-count">۲۵</strong> <span data-i18n="trustModels">مدل و تیپ</span><br /><span data-i18n="trustNote">قیمت‌ها با جزئیات مرجع ثبت شده‌اند.</span></p>
             </div>
           </div>
 
           <div class="hero__visual reveal reveal--delay">
             <div class="hero-card hero-card--main">
               <div class="hero-card__top">
-                <span class="live-label"><i></i> بازار خودرو</span>
-                <span class="hero-card__date">۲۵ شهریور</span>
+                <span class="live-label"><i></i> <span data-i18n="liveMarket">بازار خودرو</span></span>
+                <span class="hero-card__date" data-i18n="date15Sep">۲۵ شهریور</span>
               </div>
-              <div class="hero-card__label">بازه فعال بازار</div>
+              <div class="hero-card__label" data-i18n="activeRange">بازه فعال بازار</div>
               <div class="hero-card__price"><strong id="hero-market-price">۳۸۰ میلیون</strong><span id="hero-market-end">تا ۱٫۵۶ میلیارد تومان</span></div>
               <div class="hero-card__chart" aria-label="نمودار روند شاخص بازار">
                 <svg viewBox="0 0 440 115" preserveAspectRatio="none" aria-hidden="true">
@@ -212,7 +260,7 @@
                   <circle cx="395" cy="10" r="6" fill="#fff" stroke="#ff895f" stroke-width="4" />
                 </svg>
               </div>
-              <div class="hero-card__footer"><span>آخرین ۷ بررسی</span><span class="positive"><svg class="icon icon--xs"><use href="#icon-spark"></use></svg> ۲٫۸٪</span></div>
+              <div class="hero-card__footer"><span data-i18n="lastChecks">آخرین ۷ بررسی</span><span class="positive"><svg class="icon icon--xs"><use href="#icon-spark"></use></svg> ۲٫۸٪</span></div>
             </div>
 
             <div class="car-stage" aria-hidden="true">
@@ -256,11 +304,11 @@
                 <circle cx="536" cy="237" r="5" fill="#eaf5fc" />
                 <path d="M579 161c-7 18-9 41-6 69" stroke="#1a3549" stroke-width="4" />
               </svg>
-              <div class="car-stage__tag"><span>پرطرفدار امروز</span><strong>پژو ۴۰۵ SLX</strong></div>
+              <div class="car-stage__tag"><span data-i18n="popularToday">پرطرفدار امروز</span><strong>پژو ۴۰۵ SLX</strong></div>
             </div>
 
-            <div class="floating-pill floating-pill--left"><span class="floating-pill__icon orange"><svg class="icon"><use href="#icon-spark"></use></svg></span><span><small>روند هفتگی</small><strong>+۳٫۲٪</strong></span></div>
-            <div class="floating-pill floating-pill--right"><span class="floating-pill__icon mint"><svg class="icon"><use href="#icon-shield"></use></svg></span><span><small>وضعیت داده</small><strong>قابل پیگیری</strong></span></div>
+            <div class="floating-pill floating-pill--left"><span class="floating-pill__icon orange"><svg class="icon"><use href="#icon-spark"></use></svg></span><span><small data-i18n="weeklyTrend">روند هفتگی</small><strong>+۳٫۲٪</strong></span></div>
+            <div class="floating-pill floating-pill--right"><span class="floating-pill__icon mint"><svg class="icon"><use href="#icon-shield"></use></svg></span><span><small data-i18n="dataStatus">وضعیت داده</small><strong data-i18n="traceable">قابل پیگیری</strong></span></div>
           </div>
         </div>
       </section>
@@ -269,19 +317,19 @@
         <div class="page-shell metrics-grid">
           <article class="metric-card reveal">
             <span class="metric-card__icon metric-card__icon--orange"><svg class="icon"><use href="#icon-gauge"></use></svg></span>
-            <div><span class="metric-card__label">مدل و تیپ پوشش‌داده‌شده</span><strong id="metric-model-count">۲۵</strong><small>پراید و پژو ۴۰۵</small></div>
+            <div><span class="metric-card__label" data-i18n="metricModelsCovered">مدل و تیپ پوشش‌داده‌شده</span><strong id="metric-model-count">۲۵</strong><small data-i18n="pridePeugeot">پراید و پژو ۴۰۵</small></div>
           </article>
           <article class="metric-card reveal reveal--delay-1">
             <span class="metric-card__icon metric-card__icon--blue"><svg class="icon"><use href="#icon-calendar"></use></svg></span>
-            <div><span class="metric-card__label">آخرین اسنپ‌شات داده</span><strong>۲۵ شهریور</strong><small>سال ۱۴۰۵</small></div>
+            <div><span class="metric-card__label" data-i18n="metricLastSnapshot">آخرین اسنپ‌شات داده</span><strong data-i18n="date15Sep">۲۵ شهریور</strong><small data-i18n="year1405">سال ۱۴۰۵</small></div>
           </article>
           <article class="metric-card reveal reveal--delay-2">
             <span class="metric-card__icon metric-card__icon--mint"><svg class="icon"><use href="#icon-location"></use></svg></span>
-            <div><span class="metric-card__label">مبنای بررسی قیمت</span><strong>بازار آزاد</strong><small>آگهی و برآورد کارشناسی</small></div>
+            <div><span class="metric-card__label" data-i18n="metricPriceBasis">مبنای بررسی قیمت</span><strong data-i18n="freeMarket">بازار آزاد</strong><small data-i18n="adsExpert">آگهی و برآورد کارشناسی</small></div>
           </article>
           <article class="metric-card reveal reveal--delay-3">
             <span class="metric-card__icon metric-card__icon--purple"><svg class="icon"><use href="#icon-shield"></use></svg></span>
-            <div><span class="metric-card__label">نمایش قیمت</span><strong>تومان</strong><small>نه ریال</small></div>
+            <div><span class="metric-card__label" data-i18n="metricPriceDisplay">نمایش قیمت</span><strong data-i18n="announcementToman">تومان</strong><small data-i18n="tomanNotRial">نه ریال</small></div>
           </article>
         </div>
       </section>
@@ -290,71 +338,71 @@
         <div class="page-shell">
           <div class="section-head reveal">
             <div>
-              <span class="eyebrow">کاتالوگ بازار</span>
-              <h2 id="catalog-title">مدلی که دنبالش هستی، همین‌جاست.</h2>
-              <p>هر کارت یک نمونه مرجع دارد؛ سال، کارکرد و وضعیت بدنه را قبل از مقایسه ببین.</p>
+              <span class="eyebrow" data-i18n="catalogEyebrow">کاتالوگ بازار</span>
+              <h2 id="catalog-title" data-i18n="catalogTitle">مدلی که دنبالش هستی، همین‌جاست.</h2>
+              <p data-i18n="catalogDesc">هر کارت یک نمونه مرجع دارد؛ سال، کارکرد و وضعیت بدنه را قبل از مقایسه ببین.</p>
             </div>
-            <button class="text-button" id="clear-filters" type="button" hidden>پاک‌کردن فیلترها <svg class="icon icon--xs"><use href="#icon-close"></use></svg></button>
+            <button class="text-button" id="clear-filters" type="button" hidden data-i18n="clearFilters">پاک‌کردن فیلترها <svg class="icon icon--xs"><use href="#icon-close"></use></svg></button>
           </div>
 
           <div class="catalog-controls reveal">
             <div class="catalog-search">
               <svg class="icon"><use href="#icon-search"></use></svg>
               <label class="sr-only" for="catalog-search-input">جست‌وجو در مدل‌ها</label>
-              <input id="catalog-search-input" type="search" autocomplete="off" placeholder="جست‌وجو بین مدل‌ها و تیپ‌ها..." />
+              <input id="catalog-search-input" type="search" autocomplete="off" data-i18n-ph="searchCatalogPlaceholder" placeholder="جست‌وجو بین مدل‌ها و تیپ‌ها..." />
               <button class="search-clear" id="search-clear" type="button" aria-label="پاک کردن جست‌وجو" hidden><svg class="icon"><use href="#icon-close"></use></svg></button>
             </div>
             <div class="select-wrap select-wrap--sort">
-              <label for="sort-select">مرتب‌سازی</label>
+              <label for="sort-select" data-i18n="sort">مرتب‌سازی</label>
               <select id="sort-select">
-                <option value="featured">پیشنهادی</option>
-                <option value="price-desc">گران‌ترین</option>
-                <option value="price-asc">ارزان‌ترین</option>
-                <option value="year-desc">مدل جدیدتر</option>
-                <option value="change-desc">بیشترین رشد</option>
+                <option value="featured" data-i18n="sortFeatured">پیشنهادی</option>
+                <option value="price-desc" data-i18n="sortPriceDesc">گران‌ترین</option>
+                <option value="price-asc" data-i18n="sortPriceAsc">ارزان‌ترین</option>
+                <option value="year-desc" data-i18n="sortYearDesc">مدل جدیدتر</option>
+                <option value="change-desc" data-i18n="sortChangeDesc">بیشترین رشد</option>
               </select>
             </div>
           </div>
 
           <div class="filters reveal" aria-label="فیلتر قیمت‌ها">
             <div class="filter-group">
-              <span class="filter-label"><svg class="icon icon--xs"><use href="#icon-sliders"></use></svg> خانواده</span>
+              <span class="filter-label"><svg class="icon icon--xs"><use href="#icon-sliders"></use></svg> <span data-i18n="filterFamily">خانواده</span></span>
               <div class="filter-chips" id="family-filters">
-                <button type="button" class="filter-chip is-selected" data-filter-family="all">همه <span id="all-count">۲۵</span></button>
-                <button type="button" class="filter-chip" data-filter-family="pride">پراید <span id="pride-count">۱۵</span></button>
-                <button type="button" class="filter-chip" data-filter-family="peugeot">پژو ۴۰۵ <span id="peugeot-count">۱۰</span></button>
+                <button type="button" class="filter-chip is-selected" data-filter-family="all"><span data-i18n="all">همه</span> <span id="all-count">۲۵</span></button>
+                <button type="button" class="filter-chip" data-filter-family="pride"><span data-i18n="pride">پراید</span> <span id="pride-count">۱۵</span></button>
+                <button type="button" class="filter-chip" data-filter-family="peugeot"><span data-i18n="peugeot">پژو ۴۰۵</span> <span id="peugeot-count">۱۰</span></button>
               </div>
             </div>
             <div class="filter-divider"></div>
             <div class="filter-group">
-              <span class="filter-label">نوع</span>
+              <span class="filter-label" data-i18n="filterType">نوع</span>
               <div class="filter-chips" id="condition-filters">
-                <button type="button" class="filter-chip is-selected" data-filter-condition="all">همه</button>
-                <button type="button" class="filter-chip" data-filter-condition="used">کارکرده</button>
-                <button type="button" class="filter-chip" data-filter-condition="zero">صفر / کم‌کار</button>
+                <button type="button" class="filter-chip is-selected" data-filter-condition="all" data-i18n="all">همه</button>
+                <button type="button" class="filter-chip" data-filter-condition="used" data-i18n="used">کارکرده</button>
+                <button type="button" class="filter-chip" data-filter-condition="zero" data-i18n="zero">صفر / کم‌کار</button>
               </div>
             </div>
             <div class="filter-divider filter-divider--desktop"></div>
             <div class="filter-group filter-group--price">
-              <span class="filter-label">بازه قیمت</span>
+              <span class="filter-label" data-i18n="filterPrice">بازه قیمت</span>
               <div class="filter-chips" id="price-filters">
-                <button type="button" class="filter-chip is-selected" data-filter-price="all">همه</button>
-                <button type="button" class="filter-chip" data-filter-price="under600">زیر ۶۰۰ م</button>
-                <button type="button" class="filter-chip" data-filter-price="600to1000">۶۰۰ م تا ۱ م</button>
-                <button type="button" class="filter-chip" data-filter-price="over1000">بالای ۱ م</button>
+                <button type="button" class="filter-chip is-selected" data-filter-price="all" data-i18n="all">همه</button>
+                <button type="button" class="filter-chip" data-filter-price="under600" data-i18n="under600">زیر ۶۰۰ م</button>
+                <button type="button" class="filter-chip" data-filter-price="600to1000" data-i18n="from600to1000">۶۰۰ م تا ۱ م</button>
+                <button type="button" class="filter-chip" data-filter-price="over1000" data-i18n="over1000">بالای ۱ م</button>
               </div>
             </div>
           </div>
 
-          <div class="results-meta" aria-live="polite"><strong id="results-count">۲۵</strong> مدل پیدا شد <span>•</span> قیمت‌ها با <button class="info-link" id="data-note-button" type="button">نمونه مرجع</button> نمایش داده می‌شوند.</div>
+          <div class="results-meta" aria-live="polite"><strong id="results-count">۲۵</strong> <span data-i18n="modelsFound">مدل پیدا شد</span> <span>•</span> <span data-i18n="displayWithRef">قیمت‌ها با <button class="info-link" id="data-note-button" type="button">نمونه مرجع</button> نمایش داده می‌شوند.</span></div>
           <div class="catalog-grid" id="catalog-grid"></div>
           <div class="empty-state" id="empty-state" hidden>
             <div class="empty-state__icon"><svg class="icon"><use href="#icon-search"></use></svg></div>
-            <h3>مدلی با این مشخصات پیدا نشد.</h3>
-            <p>فیلترها را تغییر بده یا نام ساده‌تری را جست‌وجو کن.</p>
-            <button class="button button--outline" id="empty-reset" type="button">نمایش همه مدل‌ها</button>
+            <h3 data-i18n="noResults">مدلی با این مشخصات پیدا نشد.</h3>
+            <p data-i18n="noResultsDesc">فیلترها را تغییر بده یا نام ساده‌تری را جست‌وجو کن.</p>
+            <button class="button button--outline" id="empty-reset" type="button" data-i18n="showAll">نمایش همه مدل‌ها</button>
           </div>
-          <div class="catalog-more" id="catalog-more"><button class="button button--outline button--wide" id="load-more" type="button">نمایش مدل‌های بیشتر <svg class="icon icon--xs"><use href="#icon-arrow-left"></use></svg></button></div>
+          <div class="catalog-more" id="catalog-more"><button class="button button--outline button--wide" id="load-more" type="button" data-i18n="loadMore">نمایش مدل‌های بیشتر <svg class="icon icon--xs"><use href="#icon-arrow-left"></use></svg></button></div>
         </div>
       </section>
 
@@ -362,24 +410,24 @@
         <div class="page-shell">
           <div class="section-head section-head--split reveal">
             <div>
-              <span class="eyebrow">نبض بازار</span>
-              <h2 id="insights-title">فقط عدد نیست؛ جهت بازار را هم ببین.</h2>
+              <span class="eyebrow" data-i18n="insightsEyebrow">نبض بازار</span>
+              <h2 id="insights-title" data-i18n="insightsTitle">فقط عدد نیست؛ جهت بازار را هم ببین.</h2>
             </div>
-            <p>این نمودار، روند نمونه‌های مرجع همین صفحه را نشان می‌دهد؛ ابزار پیش‌بینی قیمت نیست.</p>
+            <p data-i18n="insightsDesc">این نمودار، روند نمونه‌های مرجع همین صفحه را نشان می‌دهد؛ ابزار پیش‌بینی قیمت نیست.</p>
           </div>
 
           <div class="insights-layout">
             <article class="chart-card reveal">
               <div class="chart-card__header">
                 <div>
-                  <span class="chart-card__caption">شاخص قیمت نمونه‌های مرجع</span>
+                  <span class="chart-card__caption" data-i18n="chartCaption">شاخص قیمت نمونه‌های مرجع</span>
                   <strong id="chart-main-price">۷۴۲ میلیون تومان</strong>
-                  <span class="chart-change positive" id="chart-change"><svg class="icon icon--xs"><use href="#icon-spark"></use></svg> ۲٫۸٪ در ۷ بررسی</span>
+                  <span class="chart-change positive" id="chart-change"><svg class="icon icon--xs"><use href="#icon-spark"></use></svg> ۲٫۸٪ <span data-i18n="in7Checks">در ۷ بررسی</span></span>
                 </div>
                 <div class="chart-tabs" role="tablist" aria-label="انتخاب خانواده خودرو">
-                  <button class="is-active" type="button" data-insight-family="all" role="tab" aria-selected="true">همه</button>
-                  <button type="button" data-insight-family="pride" role="tab" aria-selected="false">پراید</button>
-                  <button type="button" data-insight-family="peugeot" role="tab" aria-selected="false">پژو ۴۰۵</button>
+                  <button class="is-active" type="button" data-insight-family="all" role="tab" aria-selected="true" data-i18n="all">همه</button>
+                  <button type="button" data-insight-family="pride" role="tab" aria-selected="false" data-i18n="pride">پراید</button>
+                  <button type="button" data-insight-family="peugeot" role="tab" aria-selected="false" data-i18n="peugeot">پژو ۴۰۵</button>
                 </div>
               </div>
               <div class="chart-area">
@@ -396,23 +444,23 @@
                   <path id="main-chart-line" fill="none" stroke="#166b74" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
                   <g id="main-chart-points"></g>
                 </svg>
-                <div class="chart-x-labels" aria-hidden="true"><span>۷ بررسی قبل</span><span>۶</span><span>۵</span><span>۴</span><span>۳</span><span>۲</span><span>امروز</span></div>
+                <div class="chart-x-labels" aria-hidden="true"><span data-i18n="checksAgo">۷ بررسی قبل</span><span>۶</span><span>۵</span><span>۴</span><span>۳</span><span>۲</span><span data-i18n="today">امروز</span></div>
               </div>
-              <div class="chart-card__footer"><span><i class="legend-dot"></i> میانگین نمونه‌ها</span><button class="text-button" id="chart-details" type="button">جزئیات مبنا <svg class="icon icon--xs"><use href="#icon-arrow-left"></use></svg></button></div>
+              <div class="chart-card__footer"><span><i class="legend-dot"></i> <span data-i18n="average">میانگین نمونه‌ها</span></span><button class="text-button" id="chart-details" type="button" data-i18n="detailsBasis">جزئیات مبنا <svg class="icon icon--xs"><use href="#icon-arrow-left"></use></svg></button></div>
             </article>
 
             <aside class="market-notes reveal reveal--delay-1">
               <article class="market-note market-note--dark">
-                <span class="market-note__eyebrow">بیشترین قیمت کاتالوگ</span>
+                <span class="market-note__eyebrow" data-i18n="highestPrice">بیشترین قیمت کاتالوگ</span>
                 <div class="market-note__row"><div><strong id="top-price-model">پژو ۴۰۵ SLX</strong><span id="top-price-meta">مدل ۱۳۹۹ · ۱۵۰ هزار کارکرد</span></div><b id="top-price-value">۱٫۵ میلیارد</b></div>
                 <div class="market-note__line"></div>
                 <p>تیپ، کارکرد و سلامت بدنه می‌تواند تفاوت معناداری با این نمونه مرجع ایجاد کند.</p>
               </article>
               <article class="market-note market-note--soft">
                 <div class="market-note__badge"><svg class="icon"><use href="#icon-info"></use></svg></div>
-                <div><strong>قبل از معامله</strong><p>قیمت آگهی لزوماً قیمت نهایی معامله نیست؛ کارشناسی فنی و بدنه را جدی بگیر.</p></div>
+                <div><strong data-i18n="beforeDeal">قبل از معامله</strong><p data-i18n="beforeDealDesc">قیمت آگهی لزوماً قیمت نهایی معامله نیست؛ کارشناسی فنی و بدنه را جدی بگیر.</p></div>
               </article>
-              <a class="market-note market-note--link" href="#estimator"><span><svg class="icon"><use href="#icon-gauge"></use></svg></span><div><strong>برآورد شخصی‌تر می‌خواهی؟</strong><p>سال، کارکرد و بدنه را وارد کن.</p></div><svg class="icon icon--arrow"><use href="#icon-arrow-left"></use></svg></a>
+              <a class="market-note market-note--link" href="#estimator"><span><svg class="icon"><use href="#icon-gauge"></use></svg></span><div><strong data-i18n="wantPersonalEstimate">برآورد شخصی‌تر می‌خواهی؟</strong><p data-i18n="wantPersonalEstimateDesc">سال، کارکرد و بدنه را وارد کن.</p></div><svg class="icon icon--arrow"><use href="#icon-arrow-left"></use></svg></a>
             </aside>
           </div>
         </div>
@@ -422,59 +470,59 @@
         <div class="page-shell">
           <div class="section-head section-head--split reveal">
             <div>
-              <span class="eyebrow">ماشین‌حساب قیمت</span>
-              <h2 id="estimator-title">برای ماشین خودت یک برآورد اولیه بگیر.</h2>
+              <span class="eyebrow" data-i18n="estimatorEyebrow">ماشین‌حساب قیمت</span>
+              <h2 id="estimator-title" data-i18n="estimatorTitle">برای ماشین خودت یک برآورد اولیه بگیر.</h2>
             </div>
-            <p>این محاسبه براساس یکی از نمونه‌های مرجع همین سایت انجام می‌شود؛ جایگزین بازدید و کارشناسی نیست.</p>
+            <p data-i18n="estimatorDesc">این محاسبه براساس یکی از نمونه‌های مرجع همین سایت انجام می‌شود؛ جایگزین بازدید و کارشناسی نیست.</p>
           </div>
 
           <div class="estimator-box reveal">
             <form class="estimate-form" id="estimate-form">
               <div class="estimate-form__top">
                 <div class="field field--wide">
-                  <label for="estimate-car">مدل مرجع را انتخاب کن</label>
+                  <label for="estimate-car" data-i18n="selectRefModel">مدل مرجع را انتخاب کن</label>
                   <div class="select-wrap">
                     <select id="estimate-car" required></select>
                   </div>
                 </div>
                 <div class="field">
-                  <label for="estimate-mileage">کارکرد خودرو</label>
-                  <div class="number-field"><input id="estimate-mileage" type="number" min="0" max="1000000" step="1000" value="180000" inputmode="numeric" /><span>کیلومتر</span></div>
+                  <label for="estimate-mileage" data-i18n="carMileage">کارکرد خودرو</label>
+                  <div class="number-field"><input id="estimate-mileage" type="number" min="0" max="1000000" step="1000" value="180000" inputmode="numeric" /><span data-i18n="km">کیلومتر</span></div>
                 </div>
                 <div class="field field--range">
-                  <div class="range-label"><label for="estimate-mileage-range">تنظیم سریع</label><output id="estimate-mileage-label" for="estimate-mileage-range">۱۸۰٬۰۰۰ km</output></div>
+                  <div class="range-label"><label for="estimate-mileage-range" data-i18n="quickAdjust">تنظیم سریع</label><output id="estimate-mileage-label" for="estimate-mileage-range">۱۸۰٬۰۰۰ km</output></div>
                   <input id="estimate-mileage-range" type="range" min="0" max="600000" step="5000" value="180000" />
                 </div>
               </div>
 
               <fieldset class="condition-fieldset">
-                <legend>وضعیت بدنه</legend>
+                <legend data-i18n="bodyCondition">وضعیت بدنه</legend>
                 <div class="condition-options">
-                  <label class="condition-option"><input type="radio" name="body-condition" value="clean" checked /><span class="condition-option__dot"></span><span><b>بدون رنگ</b><small>بدنه سالم</small></span></label>
-                  <label class="condition-option"><input type="radio" name="body-condition" value="minor" /><span class="condition-option__dot"></span><span><b>یک لکه رنگ</b><small>اثر محدود</small></span></label>
-                  <label class="condition-option"><input type="radio" name="body-condition" value="several" /><span class="condition-option__dot"></span><span><b>چند لکه رنگ</b><small>نیاز به دقت</small></span></label>
-                  <label class="condition-option"><input type="radio" name="body-condition" value="heavy" /><span class="condition-option__dot"></span><span><b>دوررنگ / آسیب</b><small>افت بیشتر</small></span></label>
+                  <label class="condition-option"><input type="radio" name="body-condition" value="clean" checked /><span class="condition-option__dot"></span><span><b data-i18n="clean">بدون رنگ</b><small data-i18n="cleanDesc">بدنه سالم</small></span></label>
+                  <label class="condition-option"><input type="radio" name="body-condition" value="minor" /><span class="condition-option__dot"></span><span><b data-i18n="oneSpot">یک لکه رنگ</b><small data-i18n="oneSpotDesc">اثر محدود</small></span></label>
+                  <label class="condition-option"><input type="radio" name="body-condition" value="several" /><span class="condition-option__dot"></span><span><b data-i18n="severalSpots">چند لکه رنگ</b><small data-i18n="severalSpotsDesc">نیاز به دقت</small></span></label>
+                  <label class="condition-option"><input type="radio" name="body-condition" value="heavy" /><span class="condition-option__dot"></span><span><b data-i18n="repaintDamage">دوررنگ / آسیب</b><small data-i18n="repaintDamageDesc">افت بیشتر</small></span></label>
                 </div>
               </fieldset>
 
               <div class="estimate-extra">
-                <label class="check-control"><input id="estimate-insurance" type="checkbox" checked /><span><svg class="icon icon--xs"><use href="#icon-check"></use></svg></span> بیمه معتبر دارد</label>
-                <label class="check-control"><input id="estimate-technical" type="checkbox" checked /><span><svg class="icon icon--xs"><use href="#icon-check"></use></svg></span> موتور و گیربکس سالم است</label>
-                <button class="button button--dark estimate-button" type="submit">محاسبه برآورد <svg class="icon icon--xs"><use href="#icon-arrow-left"></use></svg></button>
+                <label class="check-control"><input id="estimate-insurance" type="checkbox" checked /><span><svg class="icon icon--xs"><use href="#icon-check"></use></svg></span> <span data-i18n="validInsurance">بیمه معتبر دارد</span></label>
+                <label class="check-control"><input id="estimate-technical" type="checkbox" checked /><span><svg class="icon icon--xs"><use href="#icon-check"></use></svg></span> <span data-i18n="healthyEngine">موتور و گیربکس سالم است</span></label>
+                <button class="button button--dark estimate-button" type="submit" data-i18n="calculate">محاسبه برآورد <svg class="icon icon--xs"><use href="#icon-arrow-left"></use></svg></button>
               </div>
             </form>
 
             <div class="estimate-result" id="estimate-result" aria-live="polite">
               <div class="estimate-result__glow"></div>
-              <div class="estimate-result__eyebrow"><span class="pulse-dot"></span> برآورد اولیه شما</div>
+              <div class="estimate-result__eyebrow"><span class="pulse-dot"></span> <span data-i18n="yourEstimate">برآورد اولیه شما</span></div>
               <strong id="estimate-price">۷۵۵ میلیون تومان</strong>
               <span class="estimate-result__range" id="estimate-range">بازه تقریبی: ۷۱۸ تا ۷۹۳ میلیون تومان</span>
               <div class="estimate-result__breakdown" id="estimate-breakdown">
-                <span>نمونه مرجع <b>۷۵۵ م</b></span>
-                <span>تأثیر کارکرد <b>۰</b></span>
-                <span>تأثیر شرایط <b>۰</b></span>
+                <span data-i18n="refSample">نمونه مرجع <b>۷۵۵ م</b></span>
+                <span data-i18n="mileageEffect">تأثیر کارکرد <b>۰</b></span>
+                <span data-i18n="conditionEffect">تأثیر شرایط <b>۰</b></span>
               </div>
-              <p><svg class="icon icon--xs"><use href="#icon-info"></use></svg> این خروجی پیشنهاد خرید یا فروش نیست.</p>
+              <p><svg class="icon icon--xs"><use href="#icon-info"></use></svg> <span data-i18n="estimateDisclaimer">این خروجی پیشنهاد خرید یا فروش نیست.</span></p>
             </div>
           </div>
         </div>
@@ -483,9 +531,9 @@
       <section class="compare-section" id="compare" aria-labelledby="compare-title" hidden>
         <div class="page-shell">
           <div class="compare-bar">
-            <div class="compare-bar__title"><span class="compare-bar__icon"><svg class="icon"><use href="#icon-compare"></use></svg></span><div><strong id="compare-title">مقایسه خودروها</strong><span id="compare-count">۰ از ۲ انتخاب شده</span></div></div>
+            <div class="compare-bar__title"><span class="compare-bar__icon"><svg class="icon"><use href="#icon-compare"></use></svg></span><div><strong id="compare-title" data-i18n="compare">مقایسه خودروها</strong><span id="compare-count">۰ از ۲ انتخاب شده</span></div></div>
             <div class="compare-slots" id="compare-slots"></div>
-            <div class="compare-bar__actions"><button class="text-button" id="compare-clear" type="button">پاک کردن</button><button class="button button--dark" id="compare-open" type="button" disabled>مقایسه کن <svg class="icon icon--xs"><use href="#icon-arrow-left"></use></svg></button></div>
+            <div class="compare-bar__actions"><button class="text-button" id="compare-clear" type="button" data-i18n="clear">پاک کردن</button><button class="button button--dark" id="compare-open" type="button" disabled data-i18n="compareNow">مقایسه کن <svg class="icon icon--xs"><use href="#icon-arrow-left"></use></svg></button></div>
           </div>
         </div>
       </section>
@@ -494,16 +542,16 @@
         <div class="sources__grid-pattern"></div>
         <div class="page-shell sources__layout">
           <div class="sources__copy reveal">
-            <span class="eyebrow eyebrow--light">شفافیت داده</span>
-            <h2 id="sources-title">هر عدد، باید<br />قابل پیگیری باشد.</h2>
-            <p>قیمت‌های این نسخه یک اسنپ‌شات از گزارش‌های بازار، صفحات قیمت و آگهی‌های عمومی هستند. هر خودرو، نمونه مرجع، تاریخ و لینک منبع خودش را دارد.</p>
-            <div class="source-note"><svg class="icon"><use href="#icon-shield"></use></svg><span><strong>یادآوری مهم</strong> قیمت بازار ممکن است با شهر، رنگ، کارکرد، وضعیت فنی، بیمه و شرایط معامله تغییر کند.</span></div>
+            <span class="eyebrow eyebrow--light" data-i18n="sourcesEyebrow">شفافیت داده</span>
+            <h2 id="sources-title" data-i18n="sourcesTitle">هر عدد، باید<br />قابل پیگیری باشد.</h2>
+            <p data-i18n="sourcesDesc">قیمت‌های این نسخه یک اسنپ‌شات از گزارش‌های بازار، صفحات قیمت و آگهی‌های عمومی هستند. هر خودرو، نمونه مرجع، تاریخ و لینک منبع خودش را دارد.</p>
+            <div class="source-note"><svg class="icon"><use href="#icon-shield"></use></svg><span><strong data-i18n="importantNote">یادآوری مهم</strong> <span data-i18n="importantNoteDesc">قیمت بازار ممکن است با شهر، رنگ، کارکرد، وضعیت فنی، بیمه و شرایط معامله تغییر کند.</span></span></div>
           </div>
           <div class="sources__cards reveal reveal--delay-1">
-            <a class="source-card" href="https://bama.ir/price/pride_151_gx" target="_blank" rel="noopener noreferrer"><div class="source-card__mark source-card__mark--bama">ب</div><div><strong>باما</strong><span>قیمت و آگهی خودرو</span></div><svg class="icon"><use href="#icon-external"></use></svg></a>
-            <a class="source-card" href="https://www.hamrah-mechanic.com/carprice/pride/" target="_blank" rel="noopener noreferrer"><div class="source-card__mark source-card__mark--hamrah">ه</div><div><strong>همراه مکانیک</strong><span>قیمت کارشناسی و آگهی</span></div><svg class="icon"><use href="#icon-external"></use></svg></a>
-            <a class="source-card" href="https://divar.ir/s/tehran/car/peugeot/405" target="_blank" rel="noopener noreferrer"><div class="source-card__mark source-card__mark--divar">د</div><div><strong>دیوار</strong><span>نمونه آگهی‌های عمومی</span></div><svg class="icon"><use href="#icon-external"></use></svg></a>
-            <a class="source-card" href="https://www.faradeed.ir/" target="_blank" rel="noopener noreferrer"><div class="source-card__mark source-card__mark--report">گ</div><div><strong>گزارش‌های بازار</strong><span>رصد و مقایسه روند</span></div><svg class="icon"><use href="#icon-external"></use></svg></a>
+            <a class="source-card" href="https://bama.ir/" target="_blank" rel="noopener noreferrer"><div class="source-card__mark source-card__mark--bama">ب</div><div><strong data-i18n="bama">باما</strong><span data-i18n="bamaDesc">قیمت و آگهی خودرو</span></div><svg class="icon"><use href="#icon-external"></use></svg></a>
+            <a class="source-card" href="https://www.hamrah-mechanic.com/" target="_blank" rel="noopener noreferrer"><div class="source-card__mark source-card__mark--hamrah">ه</div><div><strong data-i18n="hamrah">همراه مکانیک</strong><span data-i18n="hamrahDesc">قیمت کارشناسی و آگهی</span></div><svg class="icon"><use href="#icon-external"></use></svg></a>
+            <a class="source-card" href="https://divar.ir/" target="_blank" rel="noopener noreferrer"><div class="source-card__mark source-card__mark--divar">د</div><div><strong data-i18n="divar">دیوار</strong><span data-i18n="divarDesc">نمونه آگهی‌های عمومی</span></div><svg class="icon"><use href="#icon-external"></use></svg></a>
+            <a class="source-card" href="https://www.faradeed.ir/" target="_blank" rel="noopener noreferrer"><div class="source-card__mark source-card__mark--report">گ</div><div><strong data-i18n="reports">گزارش‌های بازار</strong><span data-i18n="reportsDesc">رصد و مقایسه روند</span></div><svg class="icon"><use href="#icon-external"></use></svg></a>
           </div>
         </div>
       </section>
@@ -511,13 +559,14 @@
 
     <footer class="site-footer">
       <div class="page-shell site-footer__top">
-        <a class="brand brand--footer" href="#top" aria-label="بازگشت به ابتدا"><span class="brand__mark"><svg class="icon"><use href="#icon-logo"></use></svg></span><span class="brand__text">فرمون<small>نبض بازار خودرو</small></span></a>
-        <p>یک ابزار نمایشی برای مشاهده و مقایسه قیمت‌های بازار خودرو</p>
-        <a class="footer-top" href="#top">برو بالا <svg class="icon icon--xs"><use href="#icon-arrow-up-right"></use></svg></a>
+        <a class="brand brand--footer" href="#top" aria-label="بازگشت به ابتدا"><span class="brand__mark"><svg class="icon"><use href="#icon-logo"></use></svg></span><span class="brand__text" data-i18n="brandName">فرمون<small data-i18n="brandTagline">نبض بازار خودرو</small></span></a>
+        <p data-i18n="footerNote">یک ابزار نمایشی برای مشاهده و مقایسه قیمت‌های بازار خودرو</p>
+        <a class="footer-top" href="#top" data-i18n="goUp">برو بالا <svg class="icon icon--xs"><use href="#icon-arrow-up-right"></use></svg></a>
       </div>
-      <div class="page-shell site-footer__bottom"><span>© <span id="year-now">۱۴۰۵</span> فرمون. ساخته‌شده برای مشاهده آسان‌تر بازار.</span><span>نسخه داده: ۲۵ شهریور ۱۴۰۵</span></div>
+      <div class="page-shell site-footer__bottom"><span>© <span id="year-now">۱۴۰۵</span> <span data-i18n="copyright">فرمون. ساخته‌شده برای مشاهده آسان‌تر بازار.</span></span><span data-i18n="dataVersion">نسخه داده: ۲۵ شهریور ۱۴۰۵</span></div>
     </footer>
 
+    <!-- Details Modal -->
     <div class="modal" id="details-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
       <div class="modal__backdrop" data-close-modal></div>
       <div class="modal__dialog" role="document">
@@ -526,6 +575,7 @@
       </div>
     </div>
 
+    <!-- Compare Modal -->
     <div class="modal modal--compare" id="compare-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="compare-modal-title">
       <div class="modal__backdrop" data-close-compare></div>
       <div class="modal__dialog modal__dialog--wide" role="document">
@@ -534,9 +584,27 @@
       </div>
     </div>
 
+    <!-- Profile Modal -->
+    <div class="modal modal--profile" id="profile-modal" aria-hidden="true" role="dialog" aria-modal="true">
+      <div class="modal__backdrop" data-close-profile></div>
+      <div class="modal__dialog" role="document">
+        <button class="modal__close" type="button" data-close-profile aria-label="بستن پنجره"><svg class="icon"><use href="#icon-close"></use></svg></button>
+        <div id="profile-modal-content" class="modal-body"></div>
+      </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal modal--login" id="login-modal" aria-hidden="true" role="dialog" aria-modal="true">
+      <div class="modal__backdrop" data-close-login></div>
+      <div class="modal__dialog" role="document">
+        <button class="modal__close" type="button" data-close-login aria-label="بستن پنجره"><svg class="icon"><use href="#icon-close"></use></svg></button>
+        <div class="login-modal-body modal-body"></div>
+      </div>
+    </div>
+
     <div class="toast-region" id="toast-region" aria-live="polite" aria-atomic="true"></div>
     <button class="back-to-top" id="back-to-top" type="button" aria-label="بازگشت به بالای صفحه"><svg class="icon"><use href="#icon-arrow-up-right"></use></svg></button>
-    <noscript><div class="noscript">برای نمایش کاتالوگ و ابزار برآورد، جاوااسکریپت مرورگر را فعال کنید.</div></noscript>
+    <noscript><div class="noscript" data-i18n="noscriptMsg">برای نمایش کاتالوگ و ابزار برآورد، جاوااسکریپت مرورگر را فعال کنید.</div></noscript>
 
     <script src="app.js"></script>
   </body>
