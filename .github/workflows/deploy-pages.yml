@@ -1,0 +1,39 @@
+name: انتشار در GitHub Pages
+
+on:
+  push:
+    branches: ["arena/01a0a8bd-name", "main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: دریافت کد
+        uses: actions/checkout@v4
+      - name: آماده‌سازی GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: آماده‌سازی فایل‌های استاتیک
+        run: |
+          mkdir -p _site/assets
+          cp index.html styles.css app.js .nojekyll _site/
+          cp -R assets/. _site/assets/
+      - name: بارگذاری سایت استاتیک
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: انتشار
+        id: deployment
+        uses: actions/deploy-pages@v4
